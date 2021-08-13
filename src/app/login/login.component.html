@@ -1,0 +1,46 @@
+ 
+  
+      <form (ngSubmit)="login()"> 
+      <label for="email">Email*</label>
+      <input type="email" [(ngModel)]="email" name="email" > <br />
+
+      <label for="password">Password*</label>
+      <input type="password" [(ngModel)]="password" name="password" > <br />
+
+
+      <button type="submit">
+          Submit</button>
+      <button class="btn"><a href="index.html">Back</a></button>
+  </form>
+  
+
+<!-- <script src="js/jquery.min.js"></script>
+<script>
+$("#header").load("header.html");
+function login() {
+  event.preventDefault();
+
+  const email = document.querySelector("#email").value;
+  const password = document.querySelector("#password").value;
+
+  console.log(email+" "+password);
+  let userobj = {
+      "email": email,
+     "password":password,
+     };
+  console.log(userobj);
+  if(email =="amritha@gmail.com" && password =="123456")
+            {
+            alert("login Successfully");
+            window.location.href = "index.html";
+            }
+            else{
+                alert("invalid user");
+            }
+  alert("login Successfully");
+  window.location.href = "index.html";
+
+
+
+}
+</script>  -->
